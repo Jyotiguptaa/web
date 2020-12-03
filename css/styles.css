@@ -1,0 +1,235 @@
+body
+{
+font-family: 'Montserrat';	
+text-align:center;
+}
+
+#title
+{
+background-color:#ff4c68;
+color:#fff;
+
+}
+h1
+{
+	margin-top:20px;
+font-family: 'Montserrat', sans-serif;
+	font-size:3.5rem;
+	line-height:1.5;
+	text-align:left;
+}
+.container-fluid
+{
+	padding:3% 15% 7%;
+	
+}
+
+.navbar
+{
+	padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+	font-family:Ubuntu;
+	font-size:27px;
+	font-weight:bold;
+	
+}
+.nav-item
+{
+	padding:0 18px;
+	
+}
+.nav-link
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+.custombutton
+{
+	margin: 5% 3% 3% 0;
+	
+}
+.firstdown
+{
+	text-align:left;
+}
+.phoneimg
+{
+	width:60%;
+	transform: rotate(20deg);
+	padding-left:30px; 
+	position:absolute; /* to activate z index */
+	z-index:0;
+	right:30%;
+}
+.title
+{
+	
+}
+@media (max-width: 1028px)
+{
+.phoneimg
+{
+	position:static;
+transform:rotate(0);	
+}
+.downbutton{
+	width:100%;
+}
+}
+@media (max-width: 768px)
+.downbutton
+{
+width:100%;
+
+}
+.box1
+{
+	pikachu
+	padding:5%;
+}
+.box2
+{
+	pikachu
+	padding:5%;
+}
+.box3
+{
+	pikachu
+	padding:5%;
+}
+
+.one
+{
+color:#ef8172;
+margin:1rem;
+	
+}
+.one:hover
+{
+	color:#ff4c68;
+}
+p
+{
+	color:#8f8f8f;
+}
+
+#testimonials
+{
+	background-color:#ff4c68;
+	pikachu
+	color:white;
+	font-family:Montserrat;
+	font-weight:3.5rem;
+	line-height:2px;
+	height:460px;
+	
+}
+
+.testimonial-image
+{
+	border-radius:100%;
+	width:20%;
+	
+}
+.testimonial-text
+{
+color:#fff;
+
+
+line-height:4rem;
+
+}
+#press
+{
+	background-color:#ff4c68;
+	pikachu
+	padding-bottom:3%;
+	
+	
+}
+.sublime
+{
+	width:15%;
+	margin: 10px 20px 0px;
+}
+.carousel-item
+{
+	padding:7% 15%;
+	
+}
+#pricing
+{
+	padding:50px;
+	pikachu
+}
+.pricingtxt
+{
+margin-top:97px;
+font-size:42px;
+width:100%;	
+}
+.cardbody
+{
+	margin-bottom:20px;
+padding:5%;
+	
+}
+.header
+{
+	padding-top:10px;
+	background-color:#cfd3ce;
+}
+.rope
+{
+	padding:4% 2%;
+}
+.paddingcolmn
+{
+	padding-right:3%;
+}
+.features
+{
+	
+padding:7% 15%;
+background-color:#fff;
+position:relative;          /*keep the div in the html flow  */
+z-index:1;             /*top 1 and below is kept 0 so that this div cover on the top  */
+}
+
+#cta
+{
+	width:100%;
+	height:350px;
+	background-color:#ff4c68;
+	padding-top:20px;
+	color:#fff;
+	pikachu
+	padding:5% 15% 10% 15%;
+}
+.tuti
+{
+	font-size:42px;
+	margin-top:31px;
+}
+.download
+{
+	margin:2%;
+	margin-top:60px;
+	padding:5px;
+}
+#footer
+{
+	width:auto;
+	height:200px;
+	padding:80px;
+	
+}
+.pad
+{
+	margin:20px 10px;
+}
+.pad:hover{
+	background-color:#66bfbf;
+}
